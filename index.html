@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Корзина</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <main class="shoppingcart">
+        <div class="cartwrapper">
+            <h1 class="shoppingcart_title">Корзина</h1>
+            <img src="./assets/icon.png" alt="">
+    </div>
+
+        <div class="shoppingcart_card">
+            <img src="./assets/tart2.png" alt="пирожение" class="card_image">
+            <ul class="card_description">
+                <li>Грушевый твист</li>
+                <li>Вес: 200 гр<div class=""></div></li>
+                <li>Количество: 1</li>
+            </ul>
+            <div class="cardprice_wrapper">
+                <p class="card_price" id="priceFirst">290.00</p>
+                <p class="card_pricecurrency">руб.</p>
+            </div>
+        </div>
+
+        <div class="shoppingcart_card">
+            <img src="./assets/cake2.png" alt="пирожение" class="card_image">
+            <ul class="card_description">
+                <li>Тарт CARAMELLO</li>
+                <li>Вес: 200 гр<div class=""></div></li>
+                <li>Количество: 1</li>
+            </ul>
+            <div class="cardprice_wrapper">
+                <p class="card_price" id="priceSecond">350.00</p>
+                <p class="card_pricecurrency">руб.</p>
+            </div>
+        </div>
+
+        <div class="shoppingcart_card">
+            <img src="./assets/cake.png" alt="пирожение" class="card_image">
+            <ul class="card_description">
+                <li>Mini cake Клубничное танго</li>
+                <li>Вес: 210 гр<div class=""></div></li>
+                <li>Количество: 1</li>
+            </ul>
+            <div class="cardprice_wrapper">
+                <p class="card_price" id="priceThird">350.00</p>
+                <p class="card_pricecurrency">руб.</p>
+            </div>
+        </div>
+
+        <div class="shoppingcart_card">
+            <img src="./assets/tart.png" alt="пирожение" class="card_image">
+            <ul class="card_description">
+                <li>Тарт Гранат-Малина</li>
+                <li>Вес: 220 гр<div class=""></div></li>
+                <li>Количество: 1</li>
+            </ul>
+            <div class="cardprice_wrapper">
+                <p class="card_price" id="priceForth">350.00</p>
+                <p class="card_pricecurrency">руб.</p>
+            </div>
+        </div>
+        <div class="totalprice_wrapper">
+            <button id="discountbutton">Использовать купон 20%</button>
+            <div class="totalprice"></div>
+        </div>
+    </main>
+    <script src="./index.js"></script>
+</body>
+</html>
