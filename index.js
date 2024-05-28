@@ -5,7 +5,7 @@ const priceForth = document.getElementById('priceForth');
 const discountButton = document.getElementById('discountbutton');
 
 
-const totalPrice = +priceFirst.innerHTML + +priceSecond.innerHTML + +priceForth.innerHTML+ +priceForth.innerHTML;
+const totalPrice = +priceFirst.innerHTML + +priceSecond.innerHTML + +priceThird.innerHTML+ +priceForth.innerHTML;
 console.log(totalPrice);
 
 const priceOutput = document.querySelector('.totalprice');
